@@ -1,4 +1,7 @@
 
-This folder contains imlpementation of the first layer of convolution of Image/pattern with Laplacian Filter. 
-
-Conv1.v is the top level file which calls the sub modules of the convolution implemenation. The module is tested by providing inputs from the Conv1_tb.v testbench.
+I have laplacian filter to form the first cnn layer. The laplacian filter matrix is 
+{0,1,0}
+{1,-4,1}
+{0,1,0}
+Adder files are used to add the which takes part during the convolution
+conv1.v just multiplies the elements wise with laplacian filter.
